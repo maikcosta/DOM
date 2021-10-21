@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,900&display=swap');
 
 body {
 	background-color: #e5e8e8;
@@ -60,4 +61,50 @@ button.dark-mode {
 button.dark-mode:hover {
 	background-color: #4e545c;
 	color: #e5e8e8;
+}
+
+h2{
+	position: relative;
+	font-size: 7vw;
+	font-family: 'Poppins', sans-serif;
+	color: #e5e8e8 ;
+	-webkit-text-stroke: 0.3vw #4e545c;
+
+}
+
+h2::before{
+	content: attr(data-text);
+	position: absolute;
+	top: 0;
+	left:0;
+	width: 0;
+	height: 100%;
+	color: #01fe87;
+	-webkit-text-stroke: 0vw #4e545c;
+	border-right: 2px solid #01fe87;
+	overflow: hidden;
+	animation: animate 6s linear infinite;
+}
+
+.social__link{
+	display: inline-flex;
+	align-items: center;
+	font-size: var(--small-font-size);
+	color: var(--text-color);
+  }
+  
+  .social__link:hover{
+	color: var(--title-color);
+  }
+
+@keyframes animate
+{
+	0%,10%,100%
+	{
+		width: 0;
+	}
+	70%,90%
+	{
+		width: 100%;
+	}
 }
