@@ -10,4 +10,4 @@ Pequena exibição de como manipular o DOM
 
 ### Resultado Final
 
-[Acesse aqui o resultado do trabalho](https://maikcosta.github.io/DOM/ "DOM - DARK/LIGHT THEMES"){:target="_blank"}
+[Acesse aqui o resultado do trabalho](https://maikcosta.github.io/DOM/ "DOM - DARK/LIGHT THEMES")
