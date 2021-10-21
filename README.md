@@ -8,3 +8,6 @@ Pequena exibição de como manipular o DOM
 
 ![DOM](https://media.giphy.com/media/vRKOM1tn8jMUBgB8zx/giphy.gif)
 
+### Resultado Final
+
+[Acesse aqui o resultado do trabalho](https://maikcosta.github.io/DOM/ "DOM - DARK/LIGHT THEMES")
